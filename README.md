@@ -10,3 +10,8 @@ python app/app.py
 Endpoints:
 - / -> Hola
 - /health -> ok
+
+## Fase 4 - Docker
+docker build -t reto-devops:fase4 .
+docker run -p 5000:5000 reto-devops:fase4
+# http://localhost:5000

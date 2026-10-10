@@ -1,0 +1,9 @@
+# FASE 1 - Comandos usados
+mkdir -p ~/reto-devops/app ~/reto-devops/logs ~/reto-devops/notes
+cd ~/reto-devops
+python3 -m venv venv
+source venv/bin/activate
+pip install -r app/requirements.txt
+python app/app.py
+curl http://localhost:5000/
+curl http://localhost:5000/health
